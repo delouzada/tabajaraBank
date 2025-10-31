@@ -1,0 +1,162 @@
+# === MAVEN / GRADLE ===
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+mvnw
+mvnw.cmd
+.gradle-cache/
+*.war
+*.ear
+
+# === SPRING BOOT TEMP FILES ===
+*.pid
+*.log
+logs/
+*.out
+tmp/
+.springBeans
+*.tmp
+
+# === DOCKER / CONTAINERS ===
+.docker/
+docker-compose.override.yml
+docker-compose.local.yml
+.env
+*.tar
+*.gz
+*.pid
+*.lock
+*.bak
+*.swp
+.cache/
+.dockerignore
+
+# === DATABASE FILES ===
+*.db
+*.sql
+*.sqlite
+*.h2.db
+*.mv.db
+data/
+database/
+pgdata/
+mysql/
+postgres/
+dump/
+
+# === IDEs ===
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# Eclipse
+.classpath
+.project
+.settings/
+# VSCode
+.vscode/
+.history/
+
+# === OS / SISTEMA ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+Icon?
+__MACOSX/
+
+# === TESTES / RELATÓRIOS ===
+test-output/
+surefire-reports/
+jacoco.exec
+coverage/
+*.lcov
+*.cov
+*.ec
+*.em
+*.html
+*.xml
+
+# === FRONTEND (caso use React/Angular no monorepo) ===
+node_modules/
+dist/
+bower_components/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.vscode-test/
+package-lock.json
+yarn.lock
+coverage-final.json
+
+# === GIT / CONFIG LOCAL ===
+.gitignore.local
+.gitconfig
+*.orig
+*.rej
+
+# === SCRIPTS TEMPORÁRIOS ===
+*.sh~
+*.bat~
+*.ps1~
+*.bak
+*.old
+*.tmp
+
+# === CI/CD / PIPELINES ===
+.ci/
+.github/
+.gitlab/
+sonar-report.xml
+sonar-project.properties
+sonar/
+reports/
+jenkins/
+*.coverage
+*.env
+test-results/
+
+# === JAVA / COMPILADOR ===
+*.class
+hs_err_pid*
+replay_pid*
+
+# === PYTHON (caso tenha scripts de automação) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env/
+.venv/
+venv/
+ENV/
+
+# === DOCUMENTAÇÃO / GERADOS ===
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.xlsx
+*.xls
+*.csv
+*.json
+*.yaml
+*.yml
+!application.yml
+!application.properties
+
+# === ARQUIVOS DE SISTEMA TABAJARA ===
+# Logs internos e builds intermediários
+gateway-service/target/
+auth-service/target/
+transaction-service/target/
+account-service/target/
+kafka/data/
+kafka/logs/
